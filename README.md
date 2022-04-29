@@ -18,7 +18,9 @@ No resources.
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_test_variable"></a> [test\_variable](#input\_test\_variable) | n/a | `string` | `"whatever"` | no |
 
 ## Outputs
 
