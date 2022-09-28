@@ -22,5 +22,7 @@ No inputs.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_test_hello"></a> [test\_hello](#output\_test\_hello) | n/a |
 <!-- END_TF_DOCS -->
