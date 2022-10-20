@@ -31,6 +31,9 @@ jobs:
       uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
       with:
         ref: ${{ github.event.pull_request.head.ref }}
+    
+    - name: Enable GPG signing
+      run: git config commit.gpgsign true
 
     - name: Render terraform docs inside the USAGE.md and push changes back to PR branch
       uses: terraform-docs/gh-actions@v1.0.0
