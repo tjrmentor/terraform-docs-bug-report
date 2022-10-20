@@ -1,3 +1,3 @@
-output "hello_123" {
+output "hello_api_test" {
   value = "hello world"
 }
