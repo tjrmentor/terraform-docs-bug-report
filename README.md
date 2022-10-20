@@ -24,5 +24,5 @@ No inputs.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_hello_123"></a> [hello\_123](#output\_hello\_123) | n/a |
+| <a name="output_hello_api_test"></a> [hello\_api\_test](#output\_hello\_api\_test) | n/a |
 <!-- END_TF_DOCS -->
