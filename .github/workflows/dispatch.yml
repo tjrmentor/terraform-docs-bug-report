@@ -1,0 +1,16 @@
+name: Verify bot commit
+on:
+  workflow_dispatch:
+    
+jobs:
+  verify-bot-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: tjrmentor/test-typescript-action
+          path: ./.github/actions/test
+      
+      - uses: ./.github/actions/test
+        with:
+          github_bot_token: ${{ secrets.GITHUB_TOKEN }}
