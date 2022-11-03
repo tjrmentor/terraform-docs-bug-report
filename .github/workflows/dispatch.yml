@@ -9,8 +9,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           repository: tjrmentor/test-typescript-action
+          token: ${{ secrets.TOKEN }}
           path: ./.github/actions/test
       
       - uses: ./.github/actions/test
-        with:
-          github_bot_token: ${{ secrets.GITHUB_TOKEN }}
